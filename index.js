@@ -6,7 +6,7 @@ newPassword.textContent = ""
 isEmpty = true;
 
 
-function getPassword () {
+function getPassword() {
     newPassword.textContent = "";
     for (let i = 0; i < 10; i++) {
         let randomChar = Math.floor(Math.random() * characters.length);
